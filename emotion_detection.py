@@ -19,4 +19,4 @@ def emotion_detector(text_to_analyze):
     
     return response.text
 
-emotion_detector("I love this new technology.")
+print(emotion_detector("I love this new technology."))
